@@ -1,0 +1,26 @@
+body,
+select,
+input,
+button,
+textarea {
+  font: {
+    family: 'Source Code Pro', monospace !important;
+    size: 0.8rem;
+  }
+}
+main {
+  &.no-back {
+    button {
+      &.back {
+        display: none;
+      }
+    }
+  }
+  button {
+    &.back {
+      margin: {
+        top: 3rem;
+      }
+    }
+  }
+}
