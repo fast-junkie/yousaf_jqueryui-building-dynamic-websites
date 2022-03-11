@@ -1,0 +1,19 @@
+#draggable {
+  background-color: rgba(32, 178, 170, 0.8);
+  border: 0.3125rem solid rgba(255, 165, 0, 0.8);
+  border-radius: 0.1875rem;
+  height: 12.5rem;
+  width: 12.5rem;
+}
+#draggable.ui-draggable {
+  border: 0.0625rem solid rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  cursor: move;
+  height: 6.25rem;
+  margin: 1.25rem;
+  width: 6.25rem;
+}
+#parent {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 18.5rem;
+}

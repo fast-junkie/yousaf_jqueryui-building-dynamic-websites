@@ -1,0 +1,20 @@
+.ui-selecting {
+  background: rgba(42, 124, 240, 0.4);
+}
+.ui-selected {
+  background: rgba(255, 0, 0, 0.4);
+}
+ul {
+  list-style: none;
+  overflow: hidden;
+}
+li {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+  float: left;
+  height: 6.25rem;
+  line-height: 6.25rem;
+  margin: 0.5em;
+  text-align: center;
+  width: 6.25rem;
+}

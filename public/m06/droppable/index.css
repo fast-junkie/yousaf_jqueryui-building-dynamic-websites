@@ -1,0 +1,18 @@
+.ui-draggable {
+  border: 0.0625rem solid rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  cursor: move;
+  height: 6.25rem;
+  margin: 1.25rem;
+  width: 6.25rem;
+}
+#drop-area > div {
+  border: 0.0625rem solid rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  height: 6.25rem;
+  line-height: 0.625rem;
+  margin: 1.25rem;
+  padding-top: 2.5rem;
+  text-align: center;
+  width: 6.25rem;
+}

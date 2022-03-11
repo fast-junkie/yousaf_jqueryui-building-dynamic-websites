@@ -1,0 +1,14 @@
+#langs {
+  list-style: none;
+  padding: 0;
+}
+#langs li {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  height: 2.1875rem;
+  line-height: 2.1875rem;
+  margin: 0.5rem 0;
+  padding-left: 0.5rem;
+}
+#langs li:hover {
+  cursor: move;
+}
