@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/vendor/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="/assets/vendor/jquery-ui-dist/jquery-ui.min.css" />
+    <link rel="stylesheet" href="/assets/css/app.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title></title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="/" class="navbar-brand"><i class="bi bi-house-fill"></i></a>
+      </div>
+    </nav>
+
+    <main class="container my-3 no-back">
+      <h3 id="title"></h3>
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="my-3">Datepicker Widget</h4>
+          <label for="inlineDate">Date:</label>
+          <input type="text" id="inlineDate" name="inlineDate" />
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="my-3">Spinner Widget</h4>
+          <input type="text" id="spinner" name="spinner" value="0" />
+        </div>
+        <div class="col-md-6">
+          <h4 class="my-3">Autocomplete Widget</h4>
+          <label for="search">Search</label>
+          <input type="search" id="search" name="search" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="my-3">Menu Widget</h4>
+          <ul id="menu">
+            <li><div>Item 1</div></li>
+            <li><div>Item 2</div></li>
+            <li>
+              <div>
+                <span class="ui-icon ui-icon-star"></span>
+                Item 3
+              </div>
+              <ul>
+                <li><div>Item 3-1</div></li>
+                <li><div>Item 3-2</div></li>
+                <li><div>Item 3-3</div></li>
+              </ul>
+            </li>
+            <li><div>Item 4</div></li>
+            <li><div>Item 5</div></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h4 class="my-3">Dialog Widget</h4>
+          <button id="opener" class="ui-button ui-corner-all">Open Dialog</button>
+          <div id="dialog" title="Movie Title: Tombstone">
+            You tell 'em I'm coming, and hell's coming with me, you hear?
+            Hell's coming with me!
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="my-3">Slider Widget</h4>
+          <div id="slider-1" class="slider-1"></div>
+          <div class="mt-3">
+            lower: <span id="lower"></span> 
+            upper: <span id="upper"></span> 
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h4 class="my-3">Tooltip Widget</h4>
+          <p id="tooltip-1" class="tooltip-1">
+            This is a <a href="#" title="Click at your own demise...">sample</a> tooltip...
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="my-3">Progressbar Widget</h4>
+          <div id="progressbar" class="progressbar"></div>
+        </div>
+        <div class="col-md-6">
+          <h4 class="my-3">Button Widget</h4>
+          <button id="btn-1">Button One</button>
+          <a href="#" id="link-1">Link One</a>
+          <button id="btn-2" class="btn btn-sm">Button 2</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="my-3">Tabs Widget</h4>
+          <div id="tabs" class="tabs">
+            <ul>
+              <li><a href="#tabs-1">Laborum ad mollit</a></li>
+              <li><a href="#tabs-2">Do eiusmod eiusmod</a></li>
+            </ul>
+            <div id="tabs-1">
+              <p>Laborum ad mollit quis duis laboris esse fugiat est ea tempor sunt velit exercitation. Cillum ex deserunt laboris laborum pariatur enim laboris nulla et incididunt qui. Amet qui cillum adipisicing laborum excepteur ad culpa culpa aliqua nostrud. Quis deserunt fugiat non mollit.</p>
+              <p>Occaecat fugiat sit do qui. Commodo enim mollit deserunt id quis magna ipsum. Laborum fugiat aliquip proident proident elit anim quis esse minim. Et deserunt pariatur qui culpa culpa nisi enim ad excepteur consectetur nulla enim exercitation.</p>
+            </div>
+            <div id="tabs-2">
+              <p>Do eiusmod eiusmod incididunt duis non labore. Nostrud in minim quis aliquip dolore aliqua. Elit nulla labore mollit veniam voluptate nisi aliqua. Id adipisicing tempor tempor nisi dolore enim. Ut aute ut sunt ipsum dolore commodo deserunt ullamco eiusmod Lorem non occaecat. Irure aute nostrud ex veniam amet aliqua ad culpa ullamco velit mollit ad. Elit Lorem culpa est excepteur do adipisicing.</p>
+              <p>Ipsum nostrud aliqua ex ipsum. Veniam ut est commodo nisi aliquip sint occaecat consequat velit cupidatat cupidatat occaecat. Ipsum excepteur cillum dolore velit cupidatat ad enim eu in enim sunt eu cupidatat. Velit aliqua nulla officia cupidatat minim et commodo mollit. Eiusmod aute consectetur ut excepteur laboris eu laborum excepteur pariatur. Minim reprehenderit dolore consequat laborum cupidatat. Veniam elit laborum minim cillum cillum non laboris proident.</p>
+              <p>Fugiat velit esse aliquip mollit cupidatat ad labore dolore culpa proident. Ipsum quis adipisicing cillum cupidatat nostrud officia esse id mollit laboris ad aliquip ut. Pariatur amet veniam incididunt quis. Irure elit nisi Lorem consectetur cupidatat ullamco ipsum ut culpa eu. Ut excepteur ut ullamco proident deserunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h4 class="my-3">Accordion Widget</h4>
+          <div id="accordion" class="accordion"></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/vendor/jquery-ui-dist/jquery-ui.min.js"></script>
+    <script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/app.js"></script>
+    
+    <script src="datepicker-de.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
