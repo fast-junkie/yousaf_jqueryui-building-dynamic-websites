@@ -14,4 +14,4 @@ ___
 
 ### Summary
 ---
-:skull:
+:skull: Last two modules are a bust without RapidAPI gobbling a Credit Card... finsihed the course, not the project... moving on.

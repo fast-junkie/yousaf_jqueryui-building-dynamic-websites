@@ -6,10 +6,9 @@
   "scripts": {
     "copy:vendor": "cpx \"node_modules/{angular,angular-*,bootstrap/dist,bootstrap-icons/font,jquery/dist,jquery-ui-dist}/**/*\" public/assets/vendor -C",
     "scss:app": "sass public/assets/sass/app.scss public/assets/css/app.css",
-    
     "build:css": "npm run scss:app",
-    "build": "npm install && npm run copy:vendor && npm run build:css",
-
+    "build:app": "npm run copy:vendor && npm run build:css",
+    "build": "npm install && npm run build:app",
     "start": "DEBUG=jqueryui,jqueryui:* nodemon server.js",
     "test": "jest --coverage"
   },
@@ -22,7 +21,10 @@
     "express": "4.17.3",
     "jquery": "3.6.0",
     "jquery-ui-dist": "1.13.1",
-    "morgan": "1.10.0"
+    "morgan": "1.10.0",
+    "requirejs": "^2.3.6",
+    "text": "0.1.0",
+    "underscore": "1.13.2"
   },
   "devDependencies": {
     "cpx": "1.5.0",
